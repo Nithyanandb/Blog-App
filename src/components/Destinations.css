@@ -1,0 +1,75 @@
+
+.Destination {
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.Destination_guide {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  gap: 40px;
+  justify-content: left;
+  padding: 100px;
+  background-color: #ffffff;
+ 
+}
+
+.destination-item {
+
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.1s ease;
+  width: 100%;
+  
+  object-fit: cover;
+
+  transition: transform 0.3s ease;
+}
+
+.destination-item:hover {
+  transform: scale(1.02);
+}
+
+
+.destination-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.destination-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.destination-description {
+  font-size: 1em;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.destination-link {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.destination-item p{
+  margin-top: 20px;
+  color: #000000;
+}
+
+.button_gui{
+background:local;
+color: #000000;
+}

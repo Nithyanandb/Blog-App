@@ -1,0 +1,119 @@
+#srpt {
+    padding: 0%;
+    margin: 0px;
+  }
+  
+  #srpt h1 {
+    color: rgb(48, 48, 48);
+    font-size: xx-large;
+    background-color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-left: 60px;
+    text-align: left;
+    margin-top: 25px;
+  }
+  
+  .he1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .postcontent {
+    background-color: #ffffff;
+    padding-right: 0px;
+    margin-left: 16%;
+    margin-top: -9%;
+    width: 70%;
+  }
+  
+  .post {
+    background-color: white;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-top: 70px;
+    width: 100%;
+    margin-left: -2.7%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+  }
+  
+  .post h2 {
+    color: #383737;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 0px;
+    width: 100%;
+    margin-left: -2.7%;
+    margin-top: -6%;
+    text-align: center;
+    margin-right: 0%;
+    font-size: 33px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .post h6 {
+    color: #262626;
+    padding-top: 0px;
+    width: 100%;
+    margin-left: 150px;
+    padding-right: 0px;
+    margin-right: 0lh;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-variant: small-caps;
+    font-size: x-large;
+    font-family: "Dongle", sans-serif;
+    margin-bottom: -40px;
+    font-weight: lighter;
+    text-align: right;
+  }
+  
+  .post p {
+    color: #1d1d1d;
+    font-family: "Lexend", sans-serif;
+    font-size: 0.19in;
+    padding: 10px;
+    margin-left: 7%;
+  }
+  
+  .blog-info img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-info {
+    background-color: #ffffff;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 0px;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 0%;
+    font-family: "Lexend", sans-serif;
+    line-height: 0.3in;
+  }
+  
+  .blog-info h3 {
+    color: #333;
+    font-stretch: extra-expanded;
+    font-variant-caps: titling-caps;
+    font-weight: 1px;
+    font-size: 0.3in;
+  }
+  
+  .blog-info p {
+    font-size: 0.19in;
+    font-weight: 1in;
+  }
+  
+  .quot {
+    font-size: 1.2rem;
+    color: #000000;
+    padding: 20px;
+  }
+  

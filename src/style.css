@@ -1,0 +1,542 @@
+.top-bar {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px 0px 10px 0px;
+  }
+*{
+  overflow:visible;
+}
+  .h {
+    display: inline-flex;
+    padding: 0px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  h1 {
+    color: rgb(48, 48, 48);
+    font-size: xx-large;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: auto;
+  }
+  
+  .top-signin {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+  
+    margin-left: 70lvw;
+  }
+  .top-signin button {
+    border: none;
+    background-color: #630808;
+    color: rgb(48, 48, 48);
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.9dvi;
+  }
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  #Tab-bar {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(245, 235, 235);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Search icon Section Starts */
+  .Search1 {
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .fa-search {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  #input {
+    display: inline-block;
+    font-family: "Poppins";
+  
+    font-size: 1dvi;
+    text-decoration: none;
+    color: #00182f;
+    border: none;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: rgb(245, 235, 235);
+    width: 100px;
+    outline: none;
+    padding: 0px;
+  }
+  /*#input:hover{border-bottom: 0.1px solid rgb(89, 89, 89);}*/
+  
+  .search-button {
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 7px;
+    background-color: none;
+  }
+  .search-button button {
+    color: rgb(200, 119, 119);
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: -5px;
+    margin-right: 10px;
+  }
+  /* Search Section Ends */
+  #input3 {
+    margin-left: 180dvb;
+    margin-top: -50px;
+    border: none;
+    outline: none;
+  }
+  #input3 button {
+    font-family:'Lexend';
+    font-size: 17px;
+    color: #030303;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    padding: 2dvb;
+  }
+  .mainbuttons {
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+  }
+  
+  .b1 {
+    display: inline-flex;
+    padding: 10px;
+    color: rgb(71, 71, 71);
+    background: none;
+    font-weight: 600;
+    margin-left: 4vh;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-size: 1.9vh;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    font-stretch: ultra-expanded;
+  }
+  
+  .b1::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    height: 1px;
+    background-color: rgb(89, 89, 89);
+    transition: width;
+    width: 0;
+  }
+  
+  .b1:hover::after {
+    width: 90%;
+  }
+  
+  .fa {
+    text-decoration: none;
+    border: none;
+    padding: 1px;
+    display: inline;
+    margin-inline-end: auto;
+    margin-left: 10%;
+  }
+  
+  .fa-instagram {
+    color: rgb(228, 64, 95);
+  }
+  
+  .fa-pinterest {
+    color: #e60023;
+  }
+  
+  .fa-facebook {
+    color: rgb(0, 116, 193);
+  }
+  
+  .fa-twitter {
+    color: rgb(0, 0, 0);
+  }
+  
+  .b2 {
+    display: inline-flex;
+    padding: 10px;
+    color: rgb(71, 71, 71);
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 400;
+    margin-left: 1vh;
+  }
+  .imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 80%;
+  }
+  
+  .FrontImg1 {
+    width: 100%;
+    height: 80%;
+  }
+
+  
+  .imgcontent {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-style: normal;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: rgb(255, 241, 241);
+  }
+
+  .imgcontent h2 {
+    font-size: 6em;
+  }
+
+  .ct {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 50px 40px 50px;
+    font-style: italic;
+  }
+  .FrontImg2-Block {
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: left;
+    font-family: "Rubik", sans-serif;
+  
+    color: #000000;
+  }
+  .cnt-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 70px;
+    justify-content: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+  }
+  .MOVE1 img {
+    width: 100%;
+    height: 75%;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  .MOVE2 img {
+    width: 100%;
+    height: 75%;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  .MOVE3 img {
+    width: 100%;
+    height: 75%;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  .button_gui {
+    background-color: none;
+    border: none;
+    color: #000000;
+    padding: 0px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    position: relative;
+  }
+  
+  .button_gui::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 0.2px;
+  }
+  
+  .button_gui:hover::after {
+    width: 100%;
+  }
+  
+  .cnt0,
+  .cnt1,
+  .cnt2 {
+    font-size: 0.19in;
+    background-color: #ffffff;
+    font-weight: lighter;
+    text-align: left;
+  
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .ct0,
+  .ct1,
+  .ct2 {
+    font-size: 18px;
+  
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .MOVE1,
+  .MOVE2 .MOVE3 {
+    text-align: left;
+  }
+  
+  .qt {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 0%;
+  
+    margin-top: 0.5in;
+    cursor: auto;
+    background-color: #ffffff;
+  }
+  .ch0 {
+    padding: 1px;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 0%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: rgb(56, 56, 56);
+    background-color: #ffffff;
+    font-size: 0.4in;
+  }
+  .ch1 {
+    padding: 10px;
+    font-size: 0.5in;
+    font-weight: lighter;
+    margin-top: 1px;
+    margin-right: 40px;
+    margin-left: 0%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: rgb(92, 116, 122);
+    background-color: #ffffff;
+  }
+  .ch2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 0.2in;
+    font-family: Verdana;
+    font-variant: small-caps;
+    color: rgb(65, 37, 37);
+  }
+  .ch3 {
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-variant: small-caps;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 0.2in;
+    color: rgb(117, 67, 1);
+  }
+  .ch4 {
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 0.2in;
+    font-family: cursive;
+    color: rgb(111, 2, 109);
+  }
+  .ch5 {
+    padding: 10px;
+    margin-top: 32px;
+    color: rgb(14, 122, 86);
+    font-size: 0.2in;
+    margin-left: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .ch6 {
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 0.2in;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-variant: small-caps;
+    color: rgb(34, 52, 74);
+  }
+  
+  .FrontImg3 {
+    position: absolute;
+    max-width: 100%;
+    margin-top: 2%;
+    max-height: 114vh;
+    width: 100%;
+    height: auto;
+  }
+  .dt {
+    position: absolute;
+    margin-top: 18%;
+    left: 50%;
+  }
+  .dt h6 {
+    transform: translate(-50%, -2in);
+    text-align: center;
+    font-size: large;
+    color: #ffffff;
+    margin-top: 0.6in;
+    padding: 0%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .dt h3 {
+    transform: translate(-50%, -2in);
+    text-align: center;
+    font-size: xx-large;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 0.6in;
+    padding: 0%;
+  }
+  .dt button {
+    outline: none;
+    padding: 0%;
+    border: none;
+    margin-top: -5%;
+    background: local;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 0.2in;
+  }
+  .dt button:hover {
+    color: #00182f;
+  }
+  
+  .Destination {
+    padding: 20px 0px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 20px;
+  }
+  
+  .Destination_guide {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 60px;
+    justify-content: left;
+    padding: 50px;
+  }
+  
+  .destination-item {
+    text-align: left;
+  }
+  .destination-item p {
+    text-align: left;
+    font-size: medium;
+    margin-top: 20px;
+  }
+  .destination-item img {
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+  }
+  .button_gui {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 10px 0px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    position: relative;
+  }
+  
+  .button_gui::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 0.2px;
+    background-color: #808080;
+    width: 100%;
+  }
+  
+  .line-above {
+    width: 92%;
+    margin: 0 auto;
+    border-top: 0.5px solid #bcbcbc;
+    margin-bottom: 3px;
+    margin-top: 13%;
+  }
+  
+  .line-below {
+    width: 92%;
+    margin: 0% auto;
+    border-top: 0.5px solid#bcbcbc;
+    margin-top: 1px;
+  }
+  
+  .ted {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+  
+    font-size: 30px;
+    position: relative;
+  }
+  .Arena {
+    margin-top: 60%;
+
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+  
+  .Arena2 {
+    margin-top: -13%;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolders;
+    font-size: large;
+  }
