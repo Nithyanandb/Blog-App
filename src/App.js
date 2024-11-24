@@ -103,7 +103,7 @@ function App() {
           </div>
         </div>
 
-        {/* Content */}
+    
         <div className="ct">
           <p>
             Terrace bar beckons you to indulge in an evening of refined relaxation and exquisite enjoyment...
@@ -112,7 +112,7 @@ function App() {
         <Slide />
         <Featured />
 
-        {/* Routes */}
+        
         <Routes>
           <Route path="/" element={<Block />} />
           <Route path="/story" element={<Story />} />

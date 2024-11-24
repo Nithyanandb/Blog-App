@@ -238,7 +238,7 @@ body {
   }
   
   @media (max-width: 768px) {
-    /* Small tablets */
+   
     .top-bar {
       flex-direction: row;
       align-items: center;
