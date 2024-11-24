@@ -1,35 +1,56 @@
-/* Slide Section */
-.FrontImg2-Block {
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+  }
+  
+
+  
+  .FrontImg2-Block {
     background-color: #ffffff;
     padding: 0;
     text-align: left;
     font-family: "Rubik", sans-serif;
     color: #000;
-}
-
-.cnt-3 {
+  }
+  
+  .cnt-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     justify-items: center;
     padding: 100px;
     background-color: #fff;
-}
-
-.MOVE1, .MOVE2, .MOVE3 {
+  }
+  
+  .MOVE1, .MOVE2, .MOVE3 {
     position: relative;
     width: 100%;
-    
     object-fit: cover;
-
     transition: transform 0.3s ease;
-}
-
-.MOVE1:hover, .MOVE2:hover, .MOVE3:hover {
+  }
+  
+  .MOVE1:hover, .MOVE2:hover, .MOVE3:hover {
     transform: scale(1.02);
-}
-
-.button_gui {
+  }
+  
+  .FrontImg2 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 3.3px;
+  }
+  
+  .button_gui {
     background-color: transparent;
     border: none;
     color: #000;
@@ -41,13 +62,13 @@
     position: relative;
     display: block;
     text-align: left;
-}
-
-.button_gui:hover::after {
+  }
+  
+  .button_gui:hover::after {
     width: 100%;
-}
-
-.button_gui::after {
+  }
+  
+  .button_gui::after {
     content: "";
     position: absolute;
     bottom: -4px;
@@ -56,9 +77,9 @@
     height: 0.2px;
     background-color: #000;
     transition: width 0.3s;
-}
-
-.cnt0, .cnt1, .cnt2 {
+  }
+  
+  .cnt0, .cnt1, .cnt2 {
     font-size: 1.2rem;
     font-weight: 600;
     color: #333;
@@ -66,11 +87,128 @@
     font-family: "Rubik", sans-serif;
     margin-bottom: 10px;
     text-align: left;
-}
-
-.ct0, .ct1, .ct2 {
+  }
+  
+  .ct0, .ct1, .ct2 {
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
     color: #555;
     margin-top: 10px;
-}
+  }
+  
+ /* Add this to your CSS file */
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-menu a:hover {
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-toggle {
+      display: block;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+    }
+  
+    .nav-menu.show {
+      display: flex;
+    }
+  
+    .nav-menu li {
+      margin-bottom: 10px;
+    }
+  
+    .nav-menu a {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .cnt-3 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .FrontImg2 {
+      height: 400px;
+    }
+  } @media only screen and (max-width: 480px) {
+    .cnt-3 {
+        margin-top  : -350px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .mainbuttons
+    {
+        margin-top: -95px;
+    }
+    .Tab-bar
+    {
+        margin-top: -40px;
+    }
+  .imgcontent
+ {
+    width: 100%;
+    margin-top: 4pc;
+ }
+ 
+    .FrontImg2 {
+      height: 400px;
+     
+    }
+    .MOVE1,.MOVE2,.MOVE3
+    {
+      margin-top: 200px;
+
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .cnt-3 {
+      padding: 20px;
+    }
+    .FrontImg2 {
+      height: 400px;
+      
+    }
+  }

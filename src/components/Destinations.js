@@ -41,9 +41,11 @@ const Destinations = () => {
             <div className="Destination_guide">
                 {destinations.map((destination, index) => (
                     <div className="destination-item" key={index}>
-                        <img src={destination.image} alt={destination.title} />
-                        <button className="button_gui">{destination.title}</button>
-                        <p>{destination.description}</p>
+                        <div className="front">
+                            <img src={destination.image} alt={destination.title} className="destination-image" />
+                            <button className="button_gui">{destination.title}</button>
+                        </div>
+                        
                     </div>
                 ))}
             </div>

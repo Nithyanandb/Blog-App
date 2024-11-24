@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import './Footer.css';
 
@@ -53,7 +54,7 @@ const Footer = () => {
           onChange={(e) => setCommentText(e.target.value)}
         />
         <button onClick={addComment}>Post Comment</button>
-
+<div className='r'>
         <h3>Comments ~</h3>
         {comments.length === 0 ? (
           <p>No comments yet</p>
@@ -66,6 +67,7 @@ const Footer = () => {
             ))}
           </ul>
         )}
+        </div>
       </div>
 
       <div className="footer-center">
@@ -81,9 +83,8 @@ const Footer = () => {
             <i className="fa fa-facebook" aria-hidden="true"></i>
           </button>
           <button onClick={xlink}>
-  <i className="fa fa-twitter" aria-hidden="true" style={{ color: 'white' }}></i> 
-</button>
-
+            <i className="fa fa-twitter" aria-hidden="true" style={{ color: 'white' }}></i>
+          </button>
         </div>
       </div>
 

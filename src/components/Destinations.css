@@ -1,75 +1,65 @@
 
-.Destination {
-  padding: 0px 0px 20px 0px;
-  text-align: center;
-  font-family: "Rubik", sans-serif;
-  background-color: #ffffff;
-  color: #000000;
-  margin-top: 20px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.Destination_guide {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(250px, 1fr));
-  gap: 40px;
-  justify-content: left;
-  padding: 100px;
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
   background-color: #ffffff;
- 
+}
+
+.Destination {
+  max-width: 1800px;
+  margin: 100px auto;
+  padding: 25px;
+  background-color: #ffffff;
+ }
+
+
+.Destination_guide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .destination-item {
+  margin: 30px;
+  width: calc(33.33% - 60px);
+}
 
-  overflow: hidden;
+.destination-item .front {
   position: relative;
-  transition: transform 0.1s ease;
-  width: 100%;
-  
-  object-fit: cover;
-
-  transition: transform 0.3s ease;
 }
-
-.destination-item:hover {
-  transform: scale(1.02);
-}
-
 
 .destination-image {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 290px;
 }
 
 
-.destination-title {
-  font-size: 1.5em;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #000000;
+@media only screen and (max-width: 768px) {
+  .destination-item {
+    width: calc(60% - 20px);
+  }
+  .destination-image {
+    width: 100%;
+    height: 220px;
+  }
+  
 }
 
-.destination-description {
-  font-size: 1em;
-  color: #000000;
-  margin-bottom: 15px;
-  line-height: 1.5;
-}
-
-.destination-link {
-  text-decoration: none;
-  color: #000000;
-  padding: 10px 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.destination-item p{
-  margin-top: 20px;
-  color: #000000;
-}
-
-.button_gui{
-background:local;
-color: #000000;
+@media only screen and (max-width: 480px) {
+  .destination-item {
+    width: 100%;
+    height: 220px;
+  }
+  .destination-image {
+    width: 100%;
+    height: 200px;
+  }
+  
 }
