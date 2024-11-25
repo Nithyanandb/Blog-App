@@ -42,7 +42,6 @@ body {
   margin: 0 auto;
 }
 
-/* Featured Destinations Styles */
 
 .fd {
   display: flex;
@@ -55,7 +54,7 @@ body {
   flex: 1;
   background-color: #ffffff;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 0px;
 
   transition: transform 0.3s ease;
 }
@@ -63,7 +62,7 @@ body {
 .d img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 3px;
   margin-bottom: 20px;
 }
 

@@ -72,7 +72,7 @@ const Footer = () => {
 
       <div className="footer-center">
         <h3>Follow Us On</h3>
-        <div className="social-icons">
+        <div className="social-i">
           <button onClick={instalink}>
             <i className="fa fa-instagram" aria-hidden="true"></i>
           </button>
@@ -91,8 +91,8 @@ const Footer = () => {
       <div className="footer-left">
         <h3>Contact Us On</h3>
         <p>Email: <a href="mailto:weblog@outlook.com">weblog@outlook.com</a></p>
-        <p>Phone: +91 9080970408</p>
-        <p>Address: Hello Home, Appu's Mansion</p>
+        <p className='we'>Phone: +91 9080970408</p>
+        <p className='we'>Address: Hello Home, Appu's Mansion</p>
       </div>
 
       <div className="footer-bottom">
